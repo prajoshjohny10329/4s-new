@@ -334,10 +334,10 @@
   $(window).on("scroll", function () {
     if ($(this).scrollTop() > 100) {
       $header.addClass("sticky-header");
-      $logo.attr("src", "/assets/images/logos/4s-logo.PNG"); // sticky logo
+      $logo.attr("src", "assets/images/logos/4s-logo.PNG"); // sticky logo
     } else {
       $header.removeClass("sticky-header");
-      $logo.attr("src", "/assets/images/logos/4s-logo-white.PNG"); // sticky logo
+      $logo.attr("src", "assets/images/logos/4s-logo-white.PNG"); // sticky logo
     }
   });
 
