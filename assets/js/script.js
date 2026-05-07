@@ -496,3 +496,31 @@ $(window).on("load", function () {
     });
   });
 })(jQuery);
+
+// setTimeout(function () {
+//     $(".popup_wrapper").css("opacity", "1");
+//   }, 2e3),
+//   $(".popup_wrapper"),
+//   $(".popup_close").on("click", function () {
+//     $(".popup_wrapper").fadeOut(300),
+//       $.cookie("cookie_popup", "monster", { expires: 7, path: "/" });
+//   }),
+//   void 0 === $.cookie("cookie_popup")
+//     ? $(".popup_wrapper").removeClass("cookie_popup")
+//     : $(".popup_wrapper").addClass("cookie_popup");
+
+//   function openEnquiryForm(){
+//     console.log("openEnquiryForm");
+//     // $.removeCookie("cookie_popup", { path: '/' });
+//     setTimeout(function () {
+//       $(".popup_wrapper").css("opacity", "1").css("display", "block").fadeIn(3000);
+//     }, 100),
+//     $(".popup_wrapper"),
+//     $(".popup_close").on("click", function () {
+//       $(".popup_wrapper").fadeOut(300),
+//       $.cookie("cookie_popup", "monster", { expires: 7, path: "/" });
+//     }),
+//     void 0 === $.cookie("cookie_popup")
+//       ? $(".popup_wrapper").removeClass("cookie_popup")
+//       : $(".popup_wrapper").addClass("cookie_popup");
+//   }

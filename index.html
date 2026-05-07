@@ -153,6 +153,9 @@
                     <a href="/our-menu/">Our Menu</a>
                   </li>
                   <li>
+		                <a  onclick="openEnquiryForm()">Enquiry Now</a>
+		            </li>
+                  <li>
                     <a href="/gallery/">Our Events</a>
                   </li>
                   
@@ -436,8 +439,8 @@
     <div class="row justify-content-center mb-40">
       <div class="col-lg-7 text-center">
         <h6 class="section-subtitle  mb-8 wow fadeInUp" data-wow-delay=".1s">Our Testimonials</h6>
-        <h2 class="section-title mb-18 wow fadeInUp text-black" data-wow-delay=".2s">Trusted From Over +3K
-          Happy Clients</h2>
+        <h3 class="section-title mb-18 wow fadeInUp text-black" data-wow-delay=".2s">Trusted From Over +3K
+          Happy Clients</h3>
       </div>
     </div>
 
@@ -1104,7 +1107,7 @@
       <div class="row align-items-center gy-4">
         <div class="col-12 col-sm-4">
           <a href="/">
-            <img class="footer-logo" src="assets/images/logos/white-logo.png" alt="logo">
+            <img class="footer-logo" src="assets/images/logos/4s-logo-white.PNG" alt="logo">
           </a>
         </div>
         <div class="col-12 col-sm-8">
@@ -1114,6 +1117,57 @@
     </div>
   </div>
 </footer>
+
+<!-- Enquiry Form Start -->
+	<div class="popup_wrapper">
+		<div class="popup_content">
+			<span class="popup_close"><i class="icon_close"></i></span>
+			<div class="content">
+				<div class=" popup-form">
+					<div class="form-logo ">
+						<img src="/assets/images/logos/4s-catering-events.png" alt="">
+					</div>
+					<div>
+						<h2 class="text-center">Enquiry Form</h2>
+						<p class="text-center">Just fill this Form we will assist you</p>
+					</div>
+
+					<form class="enquiry-form" method="post" action="form-dummy">
+						<div class="form-group">
+							<input class="form-control" type="text" placeholder="Name" id="name_contact"
+								name="name_contact" required>
+						</div>
+						<div class="form-group">
+							<input class="form-control" type="email" placeholder="Email" id="email_contact"
+								name="email_contact" required>
+						</div>
+						<div class="form-group">
+							<input class="form-control" type="tel" minlength="10" maxlength="10"
+								placeholder="Contact Number" id="contact_number" name="contact_number" required>
+						</div>
+						<div class="form-group">
+							<select class="form-control" id="event" name="event">
+								<option value="wedding">Wedding</option>
+								<option value="corporate">Corporate</option>
+								<option value="birthday">Birthday</option>
+								<option value="other">Other</option>
+							</select>
+						</div>
+						<div class="form-group">
+							<input class="form-control" type="date" placeholder="Event Date" id="event_date"
+								name="event_date" required>
+
+						</div>
+						<div class="form-group">
+							<input class="btn_1 full-width" type="submit" value="Submit Now" id="submit-contact">
+						</div>
+					</form>
+
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- Enquiry Form End -->
 
 <!-- scroll to top -->
 <button type="button" class="scroll-top-btn">
