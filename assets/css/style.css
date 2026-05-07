@@ -2550,10 +2550,23 @@ header language selector
 .roister-mobile-menu-offcanvas {
   background-color: var(--bg-black-shade-1);
   overflow-y: scroll; }
+  .offcanvas-body p{
+    color: #000;
+    margin-top: 10px;
+  }
+  .sidebar-popup-contact h4, h6{
+    color: #000;
+  }
+  .sidebar-popup-social h4{
+    color: #000;
+  }
+  #roister-mobile-menu-offcanvas{
+    background-color: #fff;
+  }
   .roister-mobile-menu-offcanvas .offcanvas-body {
-    background-color: #000; }
+    background-color: #fff; }
   .roister-mobile-menu-offcanvas .offcanvas-header {
-    background: #000;
+    background: #fff;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -2564,24 +2577,25 @@ header language selector
     -webkit-box-align: center;
     -ms-flex-align: center;
     align-items: center;
-    border-bottom: 1px solid var(--border-color-1); }
+    border-bottom: 2px solid #0202021c; }
     .roister-mobile-menu-offcanvas .offcanvas-header .header-logo {
       width: 230px;
       height: 90px;
       -o-object-fit: contain;
       object-fit: contain; }
   .roister-mobile-menu-offcanvas .mobile-tab-nav {
-    border-bottom: 1px solid var(--border-color-1); }
+    border-bottom: 1px solid #2929292e; }
     .roister-mobile-menu-offcanvas .mobile-tab-nav .nav-link {
       -webkit-box-flex: 1;
       -ms-flex-positive: 1;
       flex-grow: 1;
       padding: 20px 0px;
-      color: var(--white-color); }
+      color: #000;
+    font-weight: 700; }
       .roister-mobile-menu-offcanvas .mobile-tab-nav .nav-link.active {
         color: var(--primary-color); }
   .roister-mobile-menu-offcanvas .mobile-menu ul li:not(:last-child) a {
-    border-bottom: 1px solid var(--border-color-1); }
+    border-bottom: 2px solid #6e6e6e1f; }
   .roister-mobile-menu-offcanvas .mobile-menu ul li .submenu {
     margin-left: 12px; }
   .roister-mobile-menu-offcanvas .mobile-menu ul li a {
@@ -2594,10 +2608,11 @@ header language selector
     -webkit-box-pack: justify;
     -ms-flex-pack: justify;
     justify-content: space-between;
-    color: var(--white-color);
-    font-size: var(--fz-16);
-    font-weight: 400;
-    padding: 12px 0; }
+    color: #000;
+    font-size: 18px;
+    font-weight: 500;
+    padding: 12px 0;
+     }
     .roister-mobile-menu-offcanvas .mobile-menu ul li a[aria-expanded="true"], .roister-mobile-menu-offcanvas .mobile-menu ul li a:hover {
       color: var(--primary-color); }
   .roister-mobile-menu-offcanvas .sidebar-popup-contact {
@@ -2612,7 +2627,7 @@ header language selector
     gap: 12px;
     margin-bottom: 15px; }
     .roister-mobile-menu-offcanvas .sidebar-popup-contact li a {
-      color: var(--white-color); }
+      color: #000; }
   .roister-mobile-menu-offcanvas .sidebar-popup-contact li .icon {
     width: 35px;
     height: 35px;
