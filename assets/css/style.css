@@ -2582,7 +2582,7 @@ header language selector
     -ms-flex-align: center;
     align-items: center;
     border-bottom: 2px solid #0202021c; }
-    .roister-mobile-menu-offcanvas .offcanvas-header .header-logo {
+    .roister-mobile-menu-offcanvas .offcanvas-header .header-logo-mobile {
       width: 230px;
       height: 90px;
       -o-object-fit: contain;
@@ -3476,7 +3476,7 @@ header language selector
       .roister-single-testimonial .img-wraper {
         margin-left: 20px; } }
   .roister-single-testimonial .des {
-    color: var(--white-color);
+    color: #000;
     font-size: var(--fz-30);
     font-style: normal;
     font-weight: 500;
