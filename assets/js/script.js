@@ -177,7 +177,7 @@
       items: 4,
       margin: 20,
       autoplay: true,
-      autoplayTimeout: 4000,
+      autoplayTimeout: 1000,
       autoplayHoverPause: true,
       loop: true,
       rtl: rtl,
