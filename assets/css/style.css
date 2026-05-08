@@ -232,7 +232,8 @@ h6 {
 p {
   color: var(--white-color);
   font-family: var(--body-font);
-  font-size: var(--fz-16);
+  /* font-size: var(--fz-16); */
+  font-size: var(--fz-18);
   font-style: normal;
   font-weight: 400;
   line-height: 170%; }
@@ -2205,7 +2206,10 @@ animation rotate-center
 
 .primary-btn {
   background-color: var(--primary-color);
-  color: var(--text-color); }
+  color: var(--text-color);
+font-size: 23px;
+  text-shadow: -1px 2px 3px #00000059; }
+
   .primary-btn:hover {
     border-color: var(--primary-color);
     background-color: var(--dark-color);
@@ -3627,7 +3631,7 @@ header language selector
     display: inline-block;
     padding: 12px 42px;
     border-radius: 0px 30px 30px 0px;
-    background: var(--primary-color);
+    background: #000000ab;
     color: var(--white-color);
     font-family: var(--heading-font);
     font-size: var(--fz-24);
@@ -5142,9 +5146,6 @@ roister-photo-gallery-section
   @media (max-width: 1799.97px) {
     .roister-photo-gallery-section {
       padding: 180px 0px; } }
-  @media (max-width: 1599.97px) {
-    .roister-photo-gallery-section {
-      padding: 120px 0px; } }
   @media (max-width: 1399.97px) {
     .roister-photo-gallery-section {
       padding: 100px 0px; } }
@@ -8038,4 +8039,22 @@ roister-team-section
     -ms-border-radius: 3px;
     border-radius: 3px;
     line-height: normal
+}
+.contents-center{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.c-shadow{
+  text-shadow: 1px 2px 2px #00000033;
+}
+.parent-frame {
+  border: 18px solid var(--primary-color);
+  padding: 0px;
+  box-shadow: 0px 0px 5px 15px #4747471f;
+  margin: 30px;
+}
+.child-frame {
+  border: 10px solid #4747471f;
+  padding: 20px;
 }
