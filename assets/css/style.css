@@ -8059,3 +8059,231 @@ roister-team-section
   border: 10px solid #4747471f;
   padding: 20px;
 }
+
+  /* =========================
+       FOUR S CUSTOM CSS
+    ========================== */
+
+    .four-s-custom *{
+      margin:0;
+      padding:0;
+      box-sizing:border-box;
+      /* font-family:Arial, Helvetica, sans-serif; */
+    }
+
+    .four-s-custom{
+      background:#fff;
+      color:#000;
+      line-height:1.7;
+    }
+
+    .four-s-custom a{
+      text-decoration:none;
+    }
+
+    /* =========================
+       HERO SECTION
+    ========================== */
+
+    .four-s-custom .services-hero{
+      height:420px;
+      background:
+      linear-gradient(rgba(0,0,0,0.65),rgba(0,0,0,0.65)),
+      url('https://images.unsplash.com/photo-1519167758481-83f550bb49b3?q=80&w=1400&auto=format&fit=crop');
+
+      background-size:cover;
+      background-position:center;
+      display:flex;
+      align-items:center;
+      justify-content:center;
+      text-align:center;
+      padding:20px;
+    }
+
+    .four-s-custom .hero-content h5{
+      color: var(--primary-color);
+      letter-spacing:3px;
+      margin-bottom:15px;
+      font-size:14px;
+    }
+
+    .four-s-custom .hero-content h1{
+      color:#fff;
+      font-size:55px;
+      margin-bottom:20px;
+    }
+
+    .four-s-custom .hero-content p{
+      color:#ddd;
+      max-width:750px;
+      margin:auto;
+      font-size:17px;
+    }
+
+    /* =========================
+       SERVICES SECTION
+    ========================== */
+
+    .four-s-custom .services-section{
+      padding: 4px 8%;
+      background: white;
+    }
+
+    .four-s-custom .section-title{
+      text-align:center;
+      margin-bottom:60px;
+    }
+
+    .four-s-custom .section-title h5{
+      color: var(--primary-color);
+      letter-spacing:2px;
+      margin-bottom:15px;
+    }
+
+    .four-s-custom .section-title h2{
+      font-size:42px;
+      margin-bottom:15px;
+    }
+
+    .four-s-custom .section-title p{
+      max-width:750px;
+      margin:auto;
+      color:#666;
+    }
+
+    .four-s-custom .services-grid{
+      display:grid;
+      grid-template-columns:repeat(auto-fit,minmax(340px,1fr));
+      gap:35px;
+    }
+
+    .four-s-custom .service-card{
+      background:#fff;
+      border-radius:18px;
+      overflow:hidden;
+      transition:0.4s ease;
+      box-shadow:0 5px 30px rgba(0,0,0,0.08);
+    }
+
+    .four-s-custom .service-card:hover{
+      transform:translateY(-10px);
+    }
+
+    .four-s-custom .service-image{
+      width:100%;
+      height:240px;
+      overflow:hidden;
+    }
+
+    .four-s-custom .service-image img{
+      width:100%;
+      height:100%;
+      object-fit:cover;
+      transition:0.5s ease;
+    }
+
+    .four-s-custom .service-card:hover .service-image img{
+      transform:scale(1.08);
+    }
+
+    .four-s-custom .service-content{
+      padding:30px;
+    }
+
+    .four-s-custom .service-content h3{
+      font-size:28px;
+      margin-bottom:15px;
+      color: var(--primary-color);
+    }
+
+    .four-s-custom .service-content p{
+      color:#000000;
+      margin-bottom:20px;
+    }
+
+    .four-s-custom .service-content ul{
+      padding-left:18px;
+      margin-bottom:25px;
+      list-style-type: disc;
+    }
+
+    .four-s-custom .service-content ul li{
+      margin-bottom:10px;
+      color:#000000;
+    }
+
+    .four-s-custom .service-btn{
+      display:inline-block;
+      padding:13px 28px;
+      background:#111;
+      color:#fff;
+      border-radius:40px;
+      transition:0.3s ease;
+      font-size:15px;
+    }
+
+    .four-s-custom .service-btn:hover{
+      background: var(--primary-color);
+    }
+
+    /* =========================
+       CTA SECTION
+    ========================== */
+
+    .four-s-custom .cta-section{
+      background:#111;
+      padding:90px 8%;
+      text-align:center;
+      color:#fff;
+    }
+
+    .four-s-custom .cta-section h2{
+      font-size:45px;
+      margin-bottom:20px;
+    }
+
+    .four-s-custom .cta-section p{
+      max-width:750px;
+      margin:auto;
+      color:#ccc;
+      margin-bottom:35px;
+    }
+
+    .four-s-custom .cta-btn{
+      display:inline-block;
+      padding:15px 35px;
+      background: var(--primary-color);
+      color:#fff;
+      border-radius:40px;
+      font-size:16px;
+      transition:0.3s ease;
+    }
+
+    .four-s-custom .cta-btn:hover{
+      background:#fff;
+      color:#111;
+    }
+
+    /* =========================
+       RESPONSIVE
+    ========================== */
+
+    @media(max-width:768px){
+
+      .four-s-custom .hero-content h1{
+        font-size:38px;
+      }
+
+      .four-s-custom .section-title h2{
+        font-size:32px;
+      }
+
+      .four-s-custom .cta-section h2{
+        font-size:34px;
+      }
+
+      .four-s-custom .services-grid{
+        grid-template-columns:1fr;
+      }
+
+    }
