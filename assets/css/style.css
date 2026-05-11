@@ -3523,6 +3523,7 @@ header language selector
         font-size: var(--fz-18);
         font-style: normal;
         font-weight: 400;
+        padding-left: 55px;
         line-height: normal; }
     .roister-single-testimonial .btm-wraper .rating-wraper {
       display: -webkit-box;
